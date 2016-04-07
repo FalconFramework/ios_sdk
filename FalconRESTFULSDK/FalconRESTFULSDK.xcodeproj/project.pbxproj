@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A400D9001CAD4C400014B138 /* FalconRESTFULSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A400D8FF1CAD4C400014B138 /* FalconRESTFULSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A400D9071CAD4C400014B138 /* FalconRESTFULSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A400D8FC1CAD4C400014B138 /* FalconRESTFULSDK.framework */; };
+		A400D90C1CAD4C400014B138 /* FalconRESTFULSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400D90B1CAD4C400014B138 /* FalconRESTFULSDKTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A400D9081CAD4C400014B138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A400D8F31CAD4C400014B138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A400D8FB1CAD4C400014B138;
+			remoteInfo = FalconRESTFULSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A400D8FC1CAD4C400014B138 /* FalconRESTFULSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FalconRESTFULSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A400D8FF1CAD4C400014B138 /* FalconRESTFULSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FalconRESTFULSDK.h; sourceTree = "<group>"; };
+		A400D9011CAD4C400014B138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A400D9061CAD4C400014B138 /* FalconRESTFULSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconRESTFULSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A400D90B1CAD4C400014B138 /* FalconRESTFULSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconRESTFULSDKTests.swift; sourceTree = "<group>"; };
+		A400D90D1CAD4C400014B138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A400D8F81CAD4C400014B138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A400D9031CAD4C400014B138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A400D9071CAD4C400014B138 /* FalconRESTFULSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A400D8F21CAD4C400014B138 = {
+			isa = PBXGroup;
+			children = (
+				A400D8FE1CAD4C400014B138 /* FalconRESTFULSDK */,
+				A400D90A1CAD4C400014B138 /* FalconRESTFULSDKTests */,
+				A400D8FD1CAD4C400014B138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A400D8FD1CAD4C400014B138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A400D8FC1CAD4C400014B138 /* FalconRESTFULSDK.framework */,
+				A400D9061CAD4C400014B138 /* FalconRESTFULSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A400D8FE1CAD4C400014B138 /* FalconRESTFULSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A400D8FF1CAD4C400014B138 /* FalconRESTFULSDK.h */,
+				A400D9011CAD4C400014B138 /* Info.plist */,
+			);
+			path = FalconRESTFULSDK;
+			sourceTree = "<group>";
+		};
+		A400D90A1CAD4C400014B138 /* FalconRESTFULSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A400D90B1CAD4C400014B138 /* FalconRESTFULSDKTests.swift */,
+				A400D90D1CAD4C400014B138 /* Info.plist */,
+			);
+			path = FalconRESTFULSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A400D8F91CAD4C400014B138 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A400D9001CAD4C400014B138 /* FalconRESTFULSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A400D8FB1CAD4C400014B138 /* FalconRESTFULSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A400D9101CAD4C400014B138 /* Build configuration list for PBXNativeTarget "FalconRESTFULSDK" */;
+			buildPhases = (
+				A400D8F71CAD4C400014B138 /* Sources */,
+				A400D8F81CAD4C400014B138 /* Frameworks */,
+				A400D8F91CAD4C400014B138 /* Headers */,
+				A400D8FA1CAD4C400014B138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalconRESTFULSDK;
+			productName = FalconRESTFULSDK;
+			productReference = A400D8FC1CAD4C400014B138 /* FalconRESTFULSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A400D9051CAD4C400014B138 /* FalconRESTFULSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A400D9131CAD4C400014B138 /* Build configuration list for PBXNativeTarget "FalconRESTFULSDKTests" */;
+			buildPhases = (
+				A400D9021CAD4C400014B138 /* Sources */,
+				A400D9031CAD4C400014B138 /* Frameworks */,
+				A400D9041CAD4C400014B138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A400D9091CAD4C400014B138 /* PBXTargetDependency */,
+			);
+			name = FalconRESTFULSDKTests;
+			productName = FalconRESTFULSDKTests;
+			productReference = A400D9061CAD4C400014B138 /* FalconRESTFULSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A400D8F31CAD4C400014B138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TB;
+				TargetAttributes = {
+					A400D8FB1CAD4C400014B138 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A400D9051CAD4C400014B138 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A400D8F61CAD4C400014B138 /* Build configuration list for PBXProject "FalconRESTFULSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A400D8F21CAD4C400014B138;
+			productRefGroup = A400D8FD1CAD4C400014B138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A400D8FB1CAD4C400014B138 /* FalconRESTFULSDK */,
+				A400D9051CAD4C400014B138 /* FalconRESTFULSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A400D8FA1CAD4C400014B138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A400D9041CAD4C400014B138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A400D8F71CAD4C400014B138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A400D9021CAD4C400014B138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A400D90C1CAD4C400014B138 /* FalconRESTFULSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A400D9091CAD4C400014B138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A400D8FB1CAD4C400014B138 /* FalconRESTFULSDK */;
+			targetProxy = A400D9081CAD4C400014B138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A400D90E1CAD4C400014B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A400D90F1CAD4C400014B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A400D9111CAD4C400014B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FalconRESTFULSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.FalconRESTFULSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A400D9121CAD4C400014B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FalconRESTFULSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.FalconRESTFULSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A400D9141CAD4C400014B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FalconRESTFULSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.FalconRESTFULSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A400D9151CAD4C400014B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FalconRESTFULSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TB.FalconRESTFULSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A400D8F61CAD4C400014B138 /* Build configuration list for PBXProject "FalconRESTFULSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A400D90E1CAD4C400014B138 /* Debug */,
+				A400D90F1CAD4C400014B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A400D9101CAD4C400014B138 /* Build configuration list for PBXNativeTarget "FalconRESTFULSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A400D9111CAD4C400014B138 /* Debug */,
+				A400D9121CAD4C400014B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A400D9131CAD4C400014B138 /* Build configuration list for PBXNativeTarget "FalconRESTFULSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A400D9141CAD4C400014B138 /* Debug */,
+				A400D9151CAD4C400014B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A400D8F31CAD4C400014B138 /* Project object */;
+}
