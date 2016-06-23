@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60F4534C1D1C9CE700747BCE /* FFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4534B1D1C9CE700747BCE /* FFError.swift */; };
 		A42F17A61D04FDC700570FBD /* FalconAPIClientSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F17A51D04FDC700570FBD /* FalconAPIClientSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42F17AD1D04FDC700570FBD /* FalconAPIClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F17A21D04FDC700570FBD /* FalconAPIClientSDK.framework */; };
 		A42F17B21D04FDC700570FBD /* FalconAPIClientSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F17B11D04FDC700570FBD /* FalconAPIClientSDKTests.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60F4534B1D1C9CE700747BCE /* FFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFError.swift; sourceTree = "<group>"; };
 		A42F17A21D04FDC700570FBD /* FalconAPIClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FalconAPIClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F17A51D04FDC700570FBD /* FalconAPIClientSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FalconAPIClientSDK.h; sourceTree = "<group>"; };
 		A42F17A71D04FDC700570FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				A42F17A71D04FDC700570FBD /* Info.plist */,
 				A42F17BC1D04FDF900570FBD /* FFAPIClient.swift */,
 				A42F17BE1D05005700570FBD /* ServerPatternEnum.swift */,
+				60F4534B1D1C9CE700747BCE /* FFError.swift */,
 			);
 			path = FalconAPIClientSDK;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F4534C1D1C9CE700747BCE /* FFError.swift in Sources */,
 				A42F17BF1D05005700570FBD /* ServerPatternEnum.swift in Sources */,
 				A42F17BD1D04FDF900570FBD /* FFAPIClient.swift in Sources */,
 			);
@@ -393,6 +397,7 @@
 				A42F17B81D04FDC700570FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A42F17B91D04FDC700570FBD /* Build configuration list for PBXNativeTarget "FalconAPIClientSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +406,7 @@
 				A42F17BB1D04FDC700570FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
