@@ -9,8 +9,6 @@
 import XCTest
 //import FalconAPIClientSDK
 
-@testable import FalconAPIClientSDK
-
 class FalconAPIClientSDKTests: XCTestCase {
     
     override func setUp() {
