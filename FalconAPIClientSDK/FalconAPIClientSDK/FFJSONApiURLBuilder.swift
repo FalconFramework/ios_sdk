@@ -20,18 +20,18 @@ class FFJSONApiURLBuilder: FFURLBuilder {
         self.apiKey = self.apiSettings?.apiKey
     }
     
-    func pathForType(modelName: String) -> String {
+    private func pathForType(modelName: String) -> String {
         return modelName.lowercaseStringWithLocale(NSLocale(localeIdentifier: "en_US")) + "s"
     }
     
-    func _buildURL(modelName: String) -> String {
+    private func _buildURL(modelName: String) -> String {
         let path = self.pathForType(modelName)
         let host = self.host
         
         return host! + "/" + path
     }
     
-    func _buildURL(modelName: String, id: String) -> String {
+    private func _buildURL(modelName: String, id: String) -> String {
         
         let encodedID = id.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLHostAllowedCharacterSet())
         
