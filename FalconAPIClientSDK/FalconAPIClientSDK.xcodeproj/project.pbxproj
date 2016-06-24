@@ -16,6 +16,8 @@
 		60F453571D1CCFAF00747BCE /* FFRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F453551D1CCFAF00747BCE /* FFRequester.swift */; };
 		60F453591D1CD13F00747BCE /* FFRequestListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F453581D1CD13F00747BCE /* FFRequestListener.swift */; };
 		60F4535A1D1CD13F00747BCE /* FFRequestListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F453581D1CD13F00747BCE /* FFRequestListener.swift */; };
+		60F4535C1D1CD37A00747BCE /* FFURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4535B1D1CD37A00747BCE /* FFURLBuilder.swift */; };
+		60F4535D1D1CD37A00747BCE /* FFURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4535B1D1CD37A00747BCE /* FFURLBuilder.swift */; };
 		A42F17A61D04FDC700570FBD /* FalconAPIClientSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F17A51D04FDC700570FBD /* FalconAPIClientSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A42F17AD1D04FDC700570FBD /* FalconAPIClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F17A21D04FDC700570FBD /* FalconAPIClientSDK.framework */; };
 		A42F17B21D04FDC700570FBD /* FalconAPIClientSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F17B11D04FDC700570FBD /* FalconAPIClientSDKTests.swift */; };
@@ -38,6 +40,7 @@
 		60F4534D1D1CA1B100747BCE /* FFErrorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFErrorTest.swift; sourceTree = "<group>"; };
 		60F453551D1CCFAF00747BCE /* FFRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFRequester.swift; sourceTree = "<group>"; };
 		60F453581D1CD13F00747BCE /* FFRequestListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFRequestListener.swift; sourceTree = "<group>"; };
+		60F4535B1D1CD37A00747BCE /* FFURLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFURLBuilder.swift; sourceTree = "<group>"; };
 		A42F17A21D04FDC700570FBD /* FalconAPIClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FalconAPIClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F17A51D04FDC700570FBD /* FalconAPIClientSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FalconAPIClientSDK.h; sourceTree = "<group>"; };
 		A42F17A71D04FDC700570FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 				60F4534B1D1C9CE700747BCE /* FFError.swift */,
 				60F453551D1CCFAF00747BCE /* FFRequester.swift */,
 				60F453581D1CD13F00747BCE /* FFRequestListener.swift */,
+				60F4535B1D1CD37A00747BCE /* FFURLBuilder.swift */,
 			);
 			path = FalconAPIClientSDK;
 			sourceTree = "<group>";
@@ -218,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F453561D1CCFAF00747BCE /* FFRequester.swift in Sources */,
+				60F4535C1D1CD37A00747BCE /* FFURLBuilder.swift in Sources */,
 				60F4534C1D1C9CE700747BCE /* FFError.swift in Sources */,
 				A42F17BF1D05005700570FBD /* ServerPatternEnum.swift in Sources */,
 				60F453591D1CD13F00747BCE /* FFRequestListener.swift in Sources */,
@@ -232,6 +237,7 @@
 				60F4535A1D1CD13F00747BCE /* FFRequestListener.swift in Sources */,
 				60F453571D1CCFAF00747BCE /* FFRequester.swift in Sources */,
 				60F4534E1D1CA1B100747BCE /* FFErrorTest.swift in Sources */,
+				60F4535D1D1CD37A00747BCE /* FFURLBuilder.swift in Sources */,
 				A42F17B21D04FDC700570FBD /* FalconAPIClientSDKTests.swift in Sources */,
 				60F453501D1CA46000747BCE /* FFAPIClient.swift in Sources */,
 				60F4534F1D1CA45000747BCE /* FFError.swift in Sources */,
