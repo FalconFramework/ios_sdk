@@ -17,6 +17,12 @@ class FFAPIClient: NSObject {
     /// Returns an Singleton Instance
     static var sharedClient = FFAPIClient()
     
+    /**
+     * Set in Singleton Instance the parametres url and apiKey
+     *
+     * @param url an api base url for client
+     * @param key an api key of client in server
+     */
     static func newAPICLient(host: String, apiKey: String, serverPattern: ServerPattern) -> FFAPIClient {
         FFAPIClient.sharedClient.host = FFAPIClient.sharedClient.normalizeNakedURL(host)
         FFAPIClient.sharedClient.apiKey = apiKey
