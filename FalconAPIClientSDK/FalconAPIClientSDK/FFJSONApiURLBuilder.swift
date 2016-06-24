@@ -21,7 +21,7 @@ class FFJSONApiURLBuilder: FFURLBuilder {
     }
     
     func pathForType(modelName: String) -> String {
-        return modelName.capitalizedStringWithLocale(NSLocale(localeIdentifier: "en_US"))
+        return modelName.lowercaseStringWithLocale(NSLocale(localeIdentifier: "en_US")) + "s"
     }
     
     func _buildURL(modelName: String) -> String {
